@@ -1,0 +1,189 @@
+header{   
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 99;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100px;
+    border: none;
+    
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:10px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.v-middle {
+position: absolute;
+width: 100%;
+top: 50%;
+left:0%;
+-webkit-transform: translate(0%, -50%);
+transform: translate(0%, -50%);
+z-index: 9;
+}
+.caption  {
+font-size: 12px;
+font-weight: 300;
+color: black;
+text-transform: uppercase;
+letter-spacing: 6px;
+margin-bottom: 0px;
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+}
+h6{
+
+font-size: 12px;
+font-weight: 300;
+color: white;
+text-transform: uppercase;
+letter-spacing: 6px;
+margin-bottom: 0px;
+-webkit-animation-delay: .2s;
+animation-delay: .2s;
+}
+h1{
+font-size: 90px;
+font-weight: 700;
+margin-bottom: 0;
+color: white;
+line-height: 1em;
+-webkit-animation-delay: .4s;
+animation-delay: .4s;
+display: inline-grid;
+}
+h5{
+font-family: 'Outfit', sans-serif;
+font-size: 17px;
+font-weight: 300;
+color: white;
+margin: 15px 0;
+-webkit-animation-delay: .6s;
+animation-delay: .6s;  
+}
+h5 span {
+display: inline-block;
+font-weight: 700;
+font-size: 21px;
+color: gold;
+
+margin-left: 20px;
+-webkit-animation-delay: .6s;
+animation-delay: .6s;  
+}
+.caption h5 span i {
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+text-transform: uppercase;
+color: white;
+letter-spacing: 0;
+-webkit-animation-delay: .6s;
+animation-delay: .6s;
+}
+.button-1,.button-2 {
+-webkit-animation-delay: .8s;
+animation-delay: .8s;
+margin-right: 15px;
+margin-bottom: 15px;
+font-size: 14px;
+}
+.an{
+text-decoration:none;   
+
+}
+.button-1 {
+display: inline-block;
+height: auto;
+width:auto;
+padding: 14px 42px;
+border: 1px solid #f5b754;
+border-radius: 30px;
+background-color: #f5b754;
+color: #1b1b1b;
+font-weight: 300;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+font-size: 14px;
+transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
+transform-style: preserve-3d;
+}
+[data-overlay-dark] .button-1 span,
+.button-1 span {
+font-size: 10px;
+margin-left: 5px;
+color: #1b1b1b;
+}
+[data-overlay-dark] .button-1 i,
+.button-1 i {
+font-style: normal;
+font-size: 14px;
+padding-right: 5px;
+color: #1b1b1b;
+}
+.button-1:hover {
+border: 1px solid #fff;
+background-color: #fff;
+color: #1b1b1b;
+transform: translate3d(0px, -6px, 0.01px);
+text-decoration:none;
+}
+.button-1:hover span {
+color: #1b1b1b;
+}
+
+/* button 2 */
+.button-2 {
+display: inline-block;
+height: auto;
+width:auto;
+padding: 14px 42px;
+border: 1px solid #fff;
+border-radius: 30px;
+background-color: transparent;
+color: #fff;
+font-weight: 300;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+font-size: 14px;
+transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
+transform-style: preserve-3d;
+}
+[data-overlay-dark] .button-2 span,
+.button-2 span {
+font-size: 10px;
+margin-left: 5px;
+color: #fff;
+}
+[data-overlay-dark] .button-2 i,
+.button-2 i {
+font-style: normal;
+font-size: 14px;
+padding-right: 5px;
+color: #fff;
+}
+.button-2:hover {
+border: 1px solid #f5b754;
+background-color: #f5b754;
+color: #1b1b1b;
+transform: translate3d(0px, -6px, 0.01px);
+text-decoration:none;
+}
+.button-2:hover i,
+.button-2:hover span {
+color: #1b1b1b;
+}
+.body{
+margin-top:50%;
+}
